@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Tanuj Vishnoi",
+  title: "Hi All, I'm Tanuj Vishnoi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a Full Stack QA Engineer with expertise in designing scalable test architectures, building automation frameworks, and performing comprehensive testing across frontend, backend, APIs, and databases. I actively contribute to Agile development processes, ensuring continuous quality through every stage of the software development lifecycle."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1rgXDmLw_cxquipvbdrvTvVOvbWyoNXBAdPHXgvHwy5I/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/tanuj-vishnoi",
+  linkedin: "https://www.linkedin.com/in/tanuj-vishnoi-4976568a/",
+  gmail: "tanuj.vishnoi@gmail.com",
+  facebook: "https://www.facebook.com/tanuj.vishnoi.7",
+  stackoverflow: "https://stackoverflow.com/users/4378647/tanuj-vishnoi",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I’m an out-of-the-box thinker who ensures the product is built right, focusing on quality, usability, and long-term reliability.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end & Back end automated testing solutions for your web, desktop, api and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Expertise in micro service architecture application testing"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Any time testing by introducing test process in CI/CD"
     )
   ],
 
@@ -65,15 +63,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "webdriverio",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "playwright",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "salesforce",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -81,7 +79,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Typescript",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -89,7 +87,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "Java",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
@@ -105,7 +103,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "postman",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
@@ -114,6 +112,18 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "restassured",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "git",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -126,23 +136,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Birla institue of applied science",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "June 2011 - June 2014",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed the university student and mess management system",
+        "Participated in colleged hacothons"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Kumaon University",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Bachelor of Science",
+      duration: "June 2009 - June 2011",
+      desc: "Ranked top 5% in the program. Studied Maths, Physics and chemistry",
+      descBullets: ["Being part of the university cricket team"]
     }
   ]
 };
@@ -153,16 +162,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Web UI Automation", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend Testing & Automation",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Mobile APP Testing & Automation",
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
