@@ -80,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Typescript",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fa-thin fa-typewriter"
     },
     {
       skillName: "nodejs",
@@ -88,7 +88,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "npm",
@@ -104,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "postman",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fas fa-signs-post"
     },
     {
       skillName: "python",
@@ -120,11 +120,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "jenkins",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -137,21 +137,21 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Birla institue of applied science",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/birla-logo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "June 2011 - June 2014",
       descBullets: [
         "Developed the university student and mess management system",
-        "Participated in colleged hacothons"
+        "Participated in college hackathons"
       ]
     },
     {
       schoolName: "Kumaon University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/Kumaun_University_logo.png"),
       subHeader: "Bachelor of Science",
       duration: "June 2009 - June 2011",
       desc: "Ranked top 5% in the program. Studied Maths, Physics and chemistry",
-      descBullets: ["Being part of the university cricket team"]
+      descBullets: ["Amongest top 3 students in the class"]
     }
   ]
 };
@@ -172,7 +172,12 @@ const techStack = {
     {
       Stack: "Mobile APP Testing & Automation",
       progressPercentage: "100%"
-    }
+    },
+    {
+      Stack: "CI/CD",
+      progressPercentage: "70%"
+    },
+    
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -183,29 +188,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Automation Engineer",
+      company: "Bullhorn",
+      companylogo: require("./assets/images/bull.png"),
+      date: "July 2022 – Present",
+      desc: "Working as full stack qa and collaborating with different teams for functional, automation, and non-functional testing",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Develop automation solutions tailored to each testing level, enhancing coverage and reducing release time.",
+        "Manage DevOps tasks, automating the configuration of test environments for smooth deployment and integration"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Test Specialist",
+      company: "Accenture",
+      companylogo: require("./assets/images/accenture.png"),
+      date: "Sep 2021 – June 2022",
+      desc: "Develop distributable automation frameworks for microservices and E2E testing, enhancing efficiency of testing team",
+      descBullets: [
+        "Utilize mocking and stubbing for isolated UI testing, ensuring independent validation of components",
+        "Conduct automated testing of Android apps using Appium, ensuring reliable behavior across devices"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Lead Test Automation",
+      company: "QualiTest",
+      companylogo: require("./assets/images/qualitest.jpeg"),
+      date: "June 2014 – July 2022",
+      desc: "Lead testing efforts and supervise AQA team members across various project modules.",
+      descBullets: [
+        "Mentor fresher and mid-level QA engineers, guiding testing practices and methodologies",
+        "Design test automation frameworks for ecommerce, elearning and cms applications"
+      ]
     }
   ]
 };
@@ -215,7 +228,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -248,7 +261,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -261,51 +274,38 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "ISQTB Foundation Level",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "It's fundamental knowledge of software testing principles, terminology, and concepts ",
+      image: require("./assets/images/istqb-ctfl-4-logo.jpg"),
+      imageAlt: "ISTQB Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1fksqZJCRBHV3hFjnrOsCbFLKIEVQVtkk/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Certified Cloud Practitioner",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Certified aws foundation level engineer having basic knowelege of most of the aws services",
+      image: require("./assets/images/aws_prac_.png"),
+      imageAlt: "AWS logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate",
+          url: "https://www.credly.com/badges/ee466142-99a0-4dc6-85f1-c3a80b62cd77/public_url"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "AWS Partner: Technical Accredited",
+      subtitle: "AWS Partners who have developed fundamental, technical knowledge of AWS cloud computing, global infrastructure, services, solutions, migration and security.",
+      image: require("./assets/images/aws_prac_.png"),
+      imageAlt: "AWS Partner Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.credly.com/badges/35fac17d-16cd-4ba5-8021-49bf0516c759/public_url"}
       ]
     }
   ],
@@ -317,21 +317,15 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I love to share knowledge as a instructor & colleague",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.youtube.com/watch?v=r9eR4QY5WUI&t=17s",
+      title: "QA instructor",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Test Automation session delivered as part of the qualitest instructor"
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -352,7 +346,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -365,7 +359,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -381,8 +375,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+31-684564776",
+  email_address: "tanuj.vishnoi@gmail.com"
 };
 
 // Twitter Section
@@ -392,7 +386,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
