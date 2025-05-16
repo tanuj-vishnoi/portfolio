@@ -79,16 +79,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Typescript",
-      fontAwesomeClassname: "fa-thin fa-typewriter"
+      skillName: "typescript",
+      fontAwesomeClassname: "fas fa-ticket"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fa-brands fa-java"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "npm",
@@ -125,6 +125,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "git",
       fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "cucumber",
+      fontAwesomeClassname: "fas fa-carrot"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     }
   ],
   display: true // Set false to hide this section, defaults to true
