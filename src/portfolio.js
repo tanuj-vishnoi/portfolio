@@ -133,6 +133,9 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },{
+      skillName: 'utam',
+      fontAwesomeClassname: "fa-solid fa-bolt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
