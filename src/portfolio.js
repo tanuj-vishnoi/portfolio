@@ -146,7 +146,7 @@ const educationInfo = {
     {
       schoolName: "Birla institue of applied science",
       logo: require("./assets/images/birla-logo.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Computer Applications",
       duration: "June 2011 - June 2014",
       descBullets: [
         "Developed the university student and mess management system",
